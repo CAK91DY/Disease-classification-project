@@ -20,9 +20,9 @@ https://github.com/entbappy/Chicken-Disease-Classification--Project
 
 STEP 01- Create a conda environment after opening the repository
 
-conda create -n cnncls python=3.9 -y
+conda create -n chicken python=3.9 -y
 
-conda activate cnncls
+conda activate chicken
 
 STEP 02- install the requirements
 

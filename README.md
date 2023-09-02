@@ -41,8 +41,8 @@ DVC cmd
     dvc repro
     dvc dag
 
-    git rm -r --cached 'artifacts\data_ingestion\Chicken-fecal-images'
-    git commit -m "stop tracking artifacts\data_ingestion\Chicken-fecal-images"
+    # git rm -r --cached 'artifacts\data_ingestion\Chicken-fecal-images'
+    # git commit -m "stop tracking artifacts\data_ingestion\Chicken-fecal-images"
 
 AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.

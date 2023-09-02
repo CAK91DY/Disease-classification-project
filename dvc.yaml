@@ -28,7 +28,7 @@ stages:
     cmd: python src/cnnClassifier/pipeline/stage_03_training.py
     deps:
       - src/cnnClassifier/pipeline/stage_03_training.py
-      - src/cnnClassifier/components/prepare_callbacks.py
+      - src/cnnClassifier/components/prepare_collbacks.py
       - config/config.yaml
       - artifacts/data_ingestion/Chicken-fecal-images
       - artifacts/prepare_base_model

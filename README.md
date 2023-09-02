@@ -20,9 +20,9 @@ https://github.com/CAK91DY/Disease-classification-project
 
 STEP 01- Create a conda environment after opening the repository
 
-conda create -n chicken python=3.9 -y
+conda create -n chicken python=3.11 -y
 
-conda activate chicken
+source activate chicken
 
 STEP 02- install the requirements
 
@@ -40,6 +40,9 @@ DVC cmd
     dvc init
     dvc repro
     dvc dag
+
+    git rm -r --cached 'artifacts\data_ingestion\Chicken-fecal-images'
+    git commit -m "stop tracking artifacts\data_ingestion\Chicken-fecal-images"
 
 AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.

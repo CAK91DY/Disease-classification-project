@@ -25,11 +25,11 @@ https://github.com/CAK91DY/Disease-classification-project
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n chicken python=3.11 -y
 ```
 
 ```bash
-conda activate cnncls
+source activate chicken
 ```
 
 
